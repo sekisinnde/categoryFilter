@@ -1,0 +1,13 @@
+.container {
+  margin: 5.75em 7.5em 0 7.5em;
+  padding: 2em;
+  background-color: #fff;
+}
+
+.flex-container {
+  background-color: #dce4ed;
+  display: grid;
+  gap: 2px;
+  margin-bottom: 2px;
+  grid-template-columns: auto auto;
+}

@@ -1,0 +1,14 @@
+mat-card {
+  border-radius: 0;
+  line-height: 120%;
+  font-size: 0.875em;
+
+  &-subtitle {
+    color: #001a25;
+    font-weight: 700;
+  }
+
+  &-content {
+    color: #636970;
+  }
+}

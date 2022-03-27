@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap");
+
+.logo {
+  font-weight: 800;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 17px 122px;
+
+  position: absolute;
+  height: 60px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+.btnNav {
+  &-group {
+    background-color: #f1f7fc;
+    color: #11abec;
+    margin-left: 0.75em;
+  }
+
+  &-order {
+    margin-left: 0.75em;
+    color: #58676d;
+  }
+}
+
+.small-text {
+  margin-left: 0.5em;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75em;
+  line-height: 120%;
+}
